@@ -4,8 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>iCon App - Conference Management</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
       theme: {
@@ -37,11 +38,13 @@
         <span class="text-gold-500">i</span>Con
       </a>
       <nav class="hidden md:flex items-center gap-8">
+        <a href="#problem" class="text-sm text-gray-300 hover:text-gold-500 transition-colors">The Problem</a>
         <a href="#features" class="text-sm text-gray-300 hover:text-gold-500 transition-colors">Features</a>
         <a href="#screenshots" class="text-sm text-gray-300 hover:text-gold-500 transition-colors">Screenshots</a>
+        <a href="#roadmap" class="text-sm text-gray-300 hover:text-gold-500 transition-colors">Roadmap</a>
         <a href="#contact" class="text-sm text-gray-300 hover:text-gold-500 transition-colors">Contact</a>
       </nav>
-      <a href="https://iconv2.glide.page/" class="bg-gold-500 hover:bg-gold-600 text-black font-semibold px-5 py-2 rounded-full text-sm transition-colors">
+      <a href="#contact" class="bg-gold-500 hover:bg-gold-600 text-black font-semibold px-5 py-2 rounded-full text-sm transition-colors">
         Get Started
       </a>
     </div>
@@ -51,22 +54,22 @@
   <section class="min-h-screen flex items-center justify-center pt-20 px-6">
     <div class="max-w-4xl mx-auto text-center">
       <div class="inline-block mb-6 px-4 py-2 bg-gold-500/10 border border-gold-500/30 rounded-full">
-        <span class="text-gold-500 text-sm font-medium">Now Available</span>
+        <span class="text-gold-500 text-sm font-medium">Built for Howard University Alumni Retreat</span>
       </div>
       <h1 class="text-5xl md:text-7xl font-extrabold mb-6 leading-tight">
         <span class="text-gold-500">i</span>Con App
       </h1>
       <p class="text-xl md:text-2xl text-gray-300 mb-4 max-w-2xl mx-auto">
-        The app for all of your conference needs.
+        Conference management made simple.
       </p>
       <p class="text-lg text-gray-400 mb-10 max-w-xl mx-auto">
-        Provide and edit your event's agenda, and allow attendees to create personal profiles to connect with each other!
+        Eliminate missed sessions, enable meaningful connections, and streamline event coordination—without the complexity or cost of enterprise solutions.
       </p>
       <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
-        <a href="https://iconv2.glide.page/" class="bg-gold-500 hover:bg-gold-600 text-black font-semibold px-8 py-4 rounded-full text-lg transition-colors">
+        <a href="#contact" class="bg-gold-500 hover:bg-gold-600 text-black font-semibold px-8 py-4 rounded-full text-lg transition-colors">
           Get Started
         </a>
-        <a href="#features" class="border border-white/20 hover:border-gold-500 text-white font-semibold px-8 py-4 rounded-full text-lg transition-colors">
+        <a href="#problem" class="border border-white/20 hover:border-gold-500 text-white font-semibold px-8 py-4 rounded-full text-lg transition-colors">
           Learn More
         </a>
       </div>
@@ -77,7 +80,7 @@
   <section class="py-20 px-6 border-y border-white/10 bg-white/5">
     <div class="max-w-5xl mx-auto">
       <h2 class="text-center text-sm uppercase tracking-widest text-gold-500 mb-12 font-semibold">
-        Initial Launch Statistics
+        2025 Pilot Launch Results
       </h2>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
         <div class="text-center p-8">
@@ -85,7 +88,7 @@
           <p class="text-gray-400">Reduced Missed Sessions</p>
         </div>
         <div class="text-center p-8 md:border-x border-white/10">
-          <div class="text-5xl md:text-6xl font-extrabold text-gold-500 mb-3">90%</div>
+          <div class="text-5xl md:text-6xl font-extrabold text-gold-500 mb-3">85%</div>
           <p class="text-gray-400">Adoption Rate</p>
         </div>
         <div class="text-center p-8">
@@ -96,44 +99,88 @@
     </div>
   </section>
 
+  <!-- Problem Section -->
+  <section id="problem" class="py-24 px-6">
+    <div class="max-w-4xl mx-auto">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-4">
+          The <span class="text-gold-500">Problem</span> We Solved
+        </h2>
+        <p class="text-gray-400 text-lg max-w-2xl mx-auto mb-8">
+          The Howard University Alumni Retreat faced three critical challenges that existing solutions couldn't address.
+        </p>
+      </div>
+      
+      <div class="space-y-8">
+        <div class="bg-white/5 border border-white/10 rounded-2xl p-8">
+          <h3 class="text-xl font-semibold mb-3 text-gold-500">📧 Missed Sessions</h3>
+          <p class="text-gray-400">Attendees relied on email schedules, leading to confusion about session times and room locations. People were showing up to the wrong rooms or missing sessions entirely—no real-time updates meant information was stale the moment it was sent.</p>
+        </div>
+
+        <div class="bg-white/5 border border-white/10 rounded-2xl p-8">
+          <h3 class="text-xl font-semibold mb-3 text-gold-500">🤝 Limited Networking</h3>
+          <p class="text-gray-400">Connecting with other attendees was hit-or-miss. If you didn't catch someone during a break and exchange contact info, the opportunity was lost. There was no systematic way to discover and connect with fellow attendees before, during, or after the event.</p>
+        </div>
+
+        <div class="bg-white/5 border border-white/10 rounded-2xl p-8">
+          <h3 class="text-xl font-semibold mb-3 text-gold-500">💸 Existing Solutions Fell Short</h3>
+          <p class="text-gray-400 mb-4">We explored alternatives but none fit our needs:</p>
+          <ul class="text-gray-400 space-y-2 ml-6">
+            <li><strong class="text-white">Third-party conference apps</strong> required expensive subscriptions ($500-$2,000+) for a single event</li>
+            <li><strong class="text-white">WhatsApp groups</strong> worked for announcements but couldn't manage schedules or facilitate discovery</li>
+            <li><strong class="text-white">Email blasts</strong> were one-way, static, and easily overlooked</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="mt-12 text-center">
+        <p class="text-xl text-gray-300 italic">
+          "We needed a simple, cost-effective solution purpose-built for our community."
+        </p>
+      </div>
+    </div>
+  </section>
+
   <!-- Features Section -->
-  <section id="features" class="py-24 px-6">
+  <section id="features" class="py-24 px-6 bg-white/5">
     <div class="max-w-6xl mx-auto">
       <div class="text-center mb-16">
         <h2 class="text-3xl md:text-4xl font-bold mb-4">
           Everything You Need for Your <span class="text-gold-500">Conference</span>
         </h2>
         <p class="text-gray-400 max-w-2xl mx-auto">
-          Powerful features designed to make event management seamless and attendee engagement effortless.
+          Built based on real user feedback: "We don't want complexity—we want something that just works."
         </p>
       </div>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
         <!-- Feature 1 -->
-        <div class="bg-white/5 border border-white/10 rounded-2xl p-8 hover:border-gold-500/50 transition-colors">
+        <div class="bg-black/50 border border-white/10 rounded-2xl p-8 hover:border-gold-500/50 transition-colors">
           <div class="w-12 h-12 bg-gold-500/20 rounded-xl flex items-center justify-center mb-6">
             <svg class="w-6 h-6 text-gold-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
             </svg>
           </div>
-          <h3 class="text-xl font-semibold mb-3">Agenda Management</h3>
-          <p class="text-gray-400">Create, edit, and organize your event's agenda with an intuitive drag-and-drop interface.</p>
+          <h3 class="text-xl font-semibold mb-3">Real-Time Agenda Management</h3>
+          <p class="text-gray-400 mb-4">Live schedule updates with session details, times, and room locations—no more digging through emails or showing up to the wrong room.</p>
+          <p class="text-sm text-gold-500">→ Result: 40% reduction in missed sessions</p>
         </div>
         <!-- Feature 2 -->
-        <div class="bg-white/5 border border-white/10 rounded-2xl p-8 hover:border-gold-500/50 transition-colors">
+        <div class="bg-black/50 border border-white/10 rounded-2xl p-8 hover:border-gold-500/50 transition-colors">
           <div class="w-12 h-12 bg-gold-500/20 rounded-xl flex items-center justify-center mb-6">
             <svg class="w-6 h-6 text-gold-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
             </svg>
           </div>
-          <h3 class="text-xl font-semibold mb-3">Attendee Profiles</h3>
-          <p class="text-gray-400">Enable attendees to create personal profiles and connect with fellow participants.</p>
+          <h3 class="text-xl font-semibold mb-3">Attendee Discovery & Profiles</h3>
+          <p class="text-gray-400 mb-4">Searchable directory enabling attendees to discover and connect with each other before, during, and after the event—no more missed networking opportunities.</p>
+          <p class="text-sm text-gold-500">→ Result: 85% adoption rate among attendees</p>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Screenshots Section -->
-  <section id="screenshots" class="py-24 px-6 bg-white/5">
+  <section id="screenshots" class="py-24 px-6">
     <div class="max-w-6xl mx-auto">
       <div class="text-center mb-16">
         <h2 class="text-3xl md:text-4xl font-bold mb-4">
@@ -162,14 +209,107 @@
     </div>
   </section>
 
+  <!-- Testimonials Section -->
+  <section class="py-24 px-6 bg-white/5">
+    <div class="max-w-5xl mx-auto">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-4">
+          What <span class="text-gold-500">Attendees</span> Said
+        </h2>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-black/50 border border-white/10 rounded-2xl p-8">
+          <div class="text-gold-500 text-4xl mb-4">"</div>
+          <p class="text-gray-300 mb-6 italic">I really love this app, and I can see us using it for future retreats! Would love to bring this to some nonprofits I manage as well for events we host in the summer.</p>
+          <p class="text-sm text-gray-500">— Alumni Attendee</p>
+        </div>
+        <div class="bg-black/50 border border-white/10 rounded-2xl p-8">
+          <div class="text-gold-500 text-4xl mb-4">"</div>
+          <p class="text-gray-300 mb-6 italic">Thanks for putting this together, please bring more profile customization to the app!</p>
+          <p class="text-sm text-gray-500">— Current Student</p>
+        </div>
+        <div class="bg-black/50 border border-white/10 rounded-2xl p-8">
+          <div class="text-gold-500 text-4xl mb-4">"</div>
+          <p class="text-gray-300 mb-6 italic">Great app! So much easier than trying to keep track of the schedule via email.</p>
+          <p class="text-sm text-gray-500">— Alumni Attendee</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Roadmap Section -->
+  <section id="roadmap" class="py-24 px-6">
+    <div class="max-w-4xl mx-auto">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-4">
+          What's <span class="text-gold-500">Coming Next</span>
+        </h2>
+        <p class="text-gray-400 max-w-2xl mx-auto">
+          Based on feedback from 50+ users, here's what we're building for 2026.
+        </p>
+      </div>
+
+      <div class="space-y-6">
+        <div class="bg-white/5 border-l-4 border-gold-500 rounded-r-2xl p-6 flex items-start gap-4">
+          <div class="bg-gold-500/20 rounded-full w-12 h-12 flex items-center justify-center flex-shrink-0">
+            <span class="text-gold-500 font-bold">1</span>
+          </div>
+          <div>
+            <h3 class="text-xl font-semibold mb-2">In-App Messaging</h3>
+            <p class="text-gray-400 mb-2">Real-time chat to enable attendees to connect during and after the event—the #1 requested feature (45% of users).</p>
+            <span class="text-sm text-gold-500">High Priority • Q1 2026</span>
+          </div>
+        </div>
+
+        <div class="bg-white/5 border-l-4 border-gold-500/60 rounded-r-2xl p-6 flex items-start gap-4">
+          <div class="bg-gold-500/20 rounded-full w-12 h-12 flex items-center justify-center flex-shrink-0">
+            <span class="text-gold-500 font-bold">2</span>
+          </div>
+          <div>
+            <h3 class="text-xl font-semibold mb-2">Enhanced Profile Customization</h3>
+            <p class="text-gray-400 mb-2">Add professional details, resumes, LinkedIn integration, and profile pictures—requested by 30% of users.</p>
+            <span class="text-sm text-gold-500/70">Medium Priority • Q2 2026</span>
+          </div>
+        </div>
+
+        <div class="bg-white/5 border-l-4 border-gold-500/60 rounded-r-2xl p-6 flex items-start gap-4">
+          <div class="bg-gold-500/20 rounded-full w-12 h-12 flex items-center justify-center flex-shrink-0">
+            <span class="text-gold-500 font-bold">3</span>
+          </div>
+          <div>
+            <h3 class="text-xl font-semibold mb-2">Live Session Feedback</h3>
+            <p class="text-gray-400 mb-2">Rate sessions in real-time and provide feedback on individual sessions—requested by 15% of users.</p>
+            <span class="text-sm text-gold-500/70">Future Release • Q3 2026</span>
+          </div>
+        </div>
+
+        <div class="bg-white/5 border-l-4 border-gold-500/60 rounded-r-2xl p-6 flex items-start gap-4">
+          <div class="bg-gold-500/20 rounded-full w-12 h-12 flex items-center justify-center flex-shrink-0">
+            <span class="text-gold-500 font-bold">4</span>
+          </div>
+          <div>
+            <h3 class="text-xl font-semibold mb-2">Native iOS/Android Apps</h3>
+            <p class="text-gray-400 mb-2">Launch native mobile applications for improved performance, offline access, and discoverability via app stores.</p>
+            <span class="text-sm text-gold-500/70">Future Release • Q4 2026</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-12 text-center bg-gradient-to-r from-gold-500/10 to-transparent border border-gold-500/30 rounded-2xl p-8">
+        <h3 class="text-2xl font-bold mb-3">Long-Term Vision</h3>
+        <p class="text-gray-300">Scale iCon into a lightweight, affordable conference management platform for mid-sized professional communities (50-200 attendees) who are underserved by expensive enterprise solutions.</p>
+      </div>
+    </div>
+  </section>
+
   <!-- Contact Section -->
-  <section id="contact" class="py-24 px-6">
+  <section id="contact" class="py-24 px-6 bg-white/5">
     <div class="max-w-2xl mx-auto text-center">
       <h2 class="text-3xl md:text-4xl font-bold mb-4">
         Get in <span class="text-gold-500">Touch</span>
       </h2>
       <p class="text-gray-400 mb-10">
-        Ready to transform your conference experience? Reach out to us today.
+        Interested in using iCon for your event or want to learn more about the product journey?
       </p>
       <a href="mailto:immanuelbeech@gmail.com" class="inline-flex items-center gap-3 bg-white/5 border border-white/10 hover:border-gold-500/50 rounded-2xl px-8 py-6 transition-colors group">
         <svg class="w-6 h-6 text-gold-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -187,7 +327,7 @@
         <span class="text-gold-500">i</span>Con
       </div>
       <p class="text-gray-500 text-sm">
-        &copy; 2025 iCon App. All rights reserved.
+        &copy; 2025 iCon App. Built with ❤️ for the Howard University alumni community.
       </p>
     </div>
   </footer>
