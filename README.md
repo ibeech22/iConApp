@@ -3,7 +3,7 @@ Official repo for iCon App
 iCon Conference App
 A lightweight conference management platform designed to solve real attendee pain points—reducing missed sessions, enabling meaningful connections, and streamlining event coordination.
 🔗 Live Demo: ibeech22.github.io/iConApp
-
+- - - - - - - - - - - - - - - - - - - - - - - - - - -
 🎯 The Problem
 The Howard University Alumni Retreat is a multi-day professional conference connecting alumni and current college students (juniors and above). In 2024, we faced three critical challenges:
 
@@ -18,8 +18,8 @@ Email blasts were one-way, static, and easily overlooked
 
 
 We needed a simple, cost-effective solution purpose-built for our community.
-
-💡 The Solution
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+💡 The Solution:
 iCon is a no-frills conference management web app that delivers exactly what attendees need:
 Core Features (MVP Launch - 2025)
 
@@ -50,7 +50,7 @@ What Users Said:
 
 
 "Great app!"
-
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
 🛠️ Product Journey
 Phase 1: Discovery (2024)
