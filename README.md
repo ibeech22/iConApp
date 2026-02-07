@@ -120,8 +120,8 @@ Understanding how attendees interact with iCon was central to the MVP design. He
 Based on user feedback ("we don't want complexity—we want something that just works"), the MVP followed these principles:
 
 1. **Mobile-First:** Attendees are on-the-go; desktop is secondary
-2. **Zero Onboarding Friction:** No account creation barriers—get to value immediately
-3. **Real-Time Updates:** Agenda changes reflect instantly (no refresh needed)
+2. **Minimal Onboarding Friction:** Basic pin system limits account creation barriers—get to value immediately
+3. **Real-Time Updates:** Agenda changes reflect instantly 
 4. **Discoverability Over Search:** Browse-friendly UI since users don't always know who they're looking for
 5. **Lightweight:** Fast load times even on conference WiFi
 
