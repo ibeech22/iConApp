@@ -63,8 +63,7 @@ We needed a simple, cost-effective solution purpose-built for our community.
 
 ### Phase 2: MVP Development (2024-2025)
 - Initially explored hiring engineers, but cost constraints led to a pivot
-- Leveraged **Glide** (no-code web app platform) to build MVP solo, keeping costs near-zero
-- Applied basic HTML/JavaScript knowledge to customize the experience
+- Leveraged **Glide** (web app platform) to build MVP solo, keeping costs near-zero
 - Launched pilot at 2025 retreat with core features only
 
 ### Phase 3: Iteration & Feedback (Post-2025 Launch)
@@ -130,8 +129,7 @@ Based on user feedback ("we don't want complexity—we want something that just 
 
 ## 🧰 Tech Stack
 
-- **Platform:** Glide (no-code web app builder)
-- **Frontend Customization:** HTML, CSS, JavaScript
+- **Platform:** Glide (web app builder)
 - **Hosting:** Web-based (accessible via browser)
 - **Data Storage:** Glide's integrated database
 
@@ -159,7 +157,7 @@ Scale iCon into a lightweight, affordable conference management platform for mid
 
 2. **Ship fast, iterate faster:** Launching an MVP with just 3 core features allowed me to gather real usage data and prioritize the roadmap based on actual user behavior, not assumptions.
 
-3. **Constraints breed creativity:** Budget limitations led to a no-code solution that actually became a competitive advantage—faster iteration cycles and lower risk.
+3. **Constraints breed creativity:** Budget limitations led to a web-based solution that actually became a competitive advantage—faster iteration cycles and lower risk.
 
 4. **Measure what matters:** Tracking adoption rate, missed sessions, and satisfaction gave me clear signals on product-market fit and informed the 2026 roadmap.
 
@@ -173,5 +171,3 @@ Product Manager | Founder, iCon App
 🌐 [Portfolio Site](https://ibeech22.github.io/iConApp/)
 
 ---
-
-*Built with ❤️ for the Howard University alumni community*
